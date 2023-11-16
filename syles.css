@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  background-color: #181818;
+  color: white;
+}
+
+#game-board {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border: 1px solid white;
+}
+
+#score-board {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  color: white;
+}
+
+.snake {
+  background-color: darkgreen;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
+
+.snake.head {
+  background-color: lime;
+}
+
+.food {
+  background-color: red;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
